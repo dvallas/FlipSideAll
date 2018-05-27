@@ -1,0 +1,1142 @@
+{
+  "version" : 21,
+  "root" : {
+    "id" : "qdqy2NjdG",
+    "__class" : "CanvasNode",
+    "parentid" : null,
+    "children" : [
+      {
+        "radius" : 12,
+        "brightness" : 100,
+        "hueRotateEnabled" : 0,
+        "children" : [
+
+        ],
+        "centerAnchorX" : 0,
+        "id" : "NXPWhiwkl",
+        "exportOptions" : [
+
+        ],
+        "exportIncludesBackground" : true,
+        "grayScaleEnabled" : 0,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "constraintsLocked" : false,
+        "fillImageResize" : "fill",
+        "blurType" : "layer",
+        "fillColor" : "hsla(198, 100%, 67%, 0.47)",
+        "widthFactor" : null,
+        "blendingEnabled" : 0,
+        "grayscale" : 0,
+        "top" : 168,
+        "saturate" : 100,
+        "left" : 271,
+        "locked" : false,
+        "sepiaEnabled" : 0,
+        "fillGradient" : {
+          "end" : "rgba(0,0,0,0)",
+          "alpha" : 1,
+          "angle" : 0,
+          "__class" : "LinearGradient",
+          "start" : "black"
+        },
+        "blur" : 12,
+        "radiusTopLeft" : 12,
+        "sepia" : 0,
+        "borderColor" : "#222",
+        "rotation" : 0,
+        "borderLeft" : 1,
+        "fillEnabled" : true,
+        "right" : null,
+        "opacity" : 0.6,
+        "name" : "BlueBox",
+        "blendingMode" : "normal",
+        "contrast" : 100,
+        "centerAnchorY" : 0,
+        "height" : 33,
+        "borderWidth" : 1,
+        "radiusIsRelative" : false,
+        "hueRotate" : 0,
+        "borderStyle" : "solid",
+        "brightnessEnabled" : 0,
+        "borderPerSide" : false,
+        "saturateEnabled" : 0,
+        "aspectRatioLocked" : false,
+        "borderRight" : 1,
+        "parentid" : "qdqy2NjdG",
+        "intrinsicWidth" : null,
+        "radiusBottomLeft" : 12,
+        "boxShadows" : [
+
+        ],
+        "contrastEnabled" : 0,
+        "borderEnabled" : 0,
+        "radiusPerCorner" : false,
+        "radiusTopRight" : 12,
+        "invert" : 0,
+        "__class" : "FrameNode",
+        "fillImage" : null,
+        "clip" : true,
+        "fillType" : "color",
+        "visible" : true,
+        "invertEnabled" : 0,
+        "heightFactor" : null,
+        "width" : 402,
+        "intrinsicHeight" : null,
+        "borderBottom" : 1,
+        "deviceType" : null,
+        "bottom" : null,
+        "borderTop" : 1,
+        "targetName" : "BlueBox",
+        "radiusBottomRight" : 12,
+        "blurEnabled" : 0
+      },
+      {
+        "sepiaEnabled" : 0,
+        "editable" : false,
+        "rotation" : 0,
+        "blurType" : "layer",
+        "__class" : "TextNode",
+        "id" : "bb91N5XJD",
+        "saturateEnabled" : 0,
+        "grayscale" : 0,
+        "hueRotateEnabled" : 0,
+        "widthFactor" : null,
+        "opacity" : 1,
+        "contrastEnabled" : 0,
+        "locked" : false,
+        "left" : 292,
+        "styledText" : {
+          "cached" : {
+            "size" : {
+              "width" : 94,
+              "height" : 19
+            },
+            "os" : "10_12",
+            "width" : 0,
+            "html" : "<span data-offset-key=\"f12vc-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:16px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">FBI SpyGate<\/span><\/span>"
+          },
+          "entityMap" : {
+
+          },
+          "blocks" : [
+            {
+              "depth" : 0,
+              "inlineStyleRanges" : [
+                {
+                  "style" : "FONT:__SF-UI-Text-Regular__",
+                  "offset" : 0,
+                  "length" : 11
+                },
+                {
+                  "style" : "COLOR:rgb(0, 0, 0)",
+                  "offset" : 0,
+                  "length" : 11
+                },
+                {
+                  "style" : "SIZE:16",
+                  "offset" : 0,
+                  "length" : 11
+                },
+                {
+                  "style" : "LETTERSPACING:0",
+                  "offset" : 0,
+                  "length" : 11
+                },
+                {
+                  "style" : "LINEHEIGHT:1.2",
+                  "offset" : 0,
+                  "length" : 11
+                }
+              ],
+              "entityRanges" : [
+
+              ],
+              "data" : {
+                "emptyStyle" : [
+                  "FONT:__SF-UI-Text-Regular__",
+                  "COLOR:rgb(0, 0, 0)",
+                  "SIZE:16",
+                  "LETTERSPACING:0",
+                  "LINEHEIGHT:1.2"
+                ]
+              },
+              "text" : "FBI SpyGate",
+              "key" : "f12vc",
+              "type" : "unstyled"
+            }
+          ],
+          "__class" : "StyledTextDraft"
+        },
+        "blendingMode" : "normal",
+        "invert" : 0,
+        "sepia" : 0,
+        "centerAnchorX" : 0.1840796019900497,
+        "blurEnabled" : 0,
+        "shadows" : [
+
+        ],
+        "parentid" : "qdqy2NjdG",
+        "brightnessEnabled" : 0,
+        "exportOptions" : [
+
+        ],
+        "name" : "SpyGate",
+        "saturate" : 100,
+        "height" : 19,
+        "blendingEnabled" : 0,
+        "top" : 138,
+        "constraintsLocked" : false,
+        "right" : null,
+        "visible" : true,
+        "centerAnchorY" : -0.01523545706371191,
+        "contrast" : 100,
+        "grayScaleEnabled" : 0,
+        "hueRotate" : 0,
+        "heightFactor" : null,
+        "targetName" : "SpyGate",
+        "bottom" : null,
+        "blur" : 12,
+        "autoSize" : true,
+        "invertEnabled" : 0,
+        "width" : 94,
+        "brightness" : 100
+      },
+      {
+        "sepiaEnabled" : 0,
+        "editable" : false,
+        "rotation" : 0,
+        "blurType" : "layer",
+        "__class" : "TextNode",
+        "id" : "PRnYaVWi8",
+        "saturateEnabled" : 0,
+        "grayscale" : 0,
+        "hueRotateEnabled" : 0,
+        "widthFactor" : null,
+        "opacity" : 1,
+        "contrastEnabled" : 0,
+        "locked" : false,
+        "left" : 292,
+        "styledText" : {
+          "cached" : {
+            "size" : {
+              "width" : 231,
+              "height" : 19
+            },
+            "os" : "10_12",
+            "width" : 0,
+            "html" : "<span data-offset-key=\"8khl8-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:16px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">House Immigration Vote Battle<\/span><\/span>"
+          },
+          "entityMap" : {
+
+          },
+          "blocks" : [
+            {
+              "depth" : 0,
+              "inlineStyleRanges" : [
+                {
+                  "style" : "FONT:__SF-UI-Text-Regular__",
+                  "length" : 29,
+                  "offset" : 0
+                },
+                {
+                  "style" : "COLOR:rgb(0, 0, 0)",
+                  "length" : 29,
+                  "offset" : 0
+                },
+                {
+                  "style" : "LETTERSPACING:0",
+                  "length" : 29,
+                  "offset" : 0
+                },
+                {
+                  "style" : "LINEHEIGHT:1.2",
+                  "length" : 29,
+                  "offset" : 0
+                },
+                {
+                  "style" : "SIZE:16",
+                  "length" : 29,
+                  "offset" : 0
+                }
+              ],
+              "entityRanges" : [
+
+              ],
+              "data" : {
+                "emptyStyle" : [
+                  "FONT:__SF-UI-Text-Regular__",
+                  "COLOR:rgb(0, 0, 0)",
+                  "LETTERSPACING:0",
+                  "LINEHEIGHT:1.2",
+                  "SIZE:16"
+                ]
+              },
+              "text" : "House Immigration Vote Battle",
+              "key" : "8khl8",
+              "type" : "unstyled"
+            }
+          ],
+          "__class" : "StyledTextDraft"
+        },
+        "blendingMode" : "normal",
+        "invert" : 0,
+        "sepia" : 0,
+        "centerAnchorX" : 0.3644278606965174,
+        "blurEnabled" : 0,
+        "shadows" : [
+
+        ],
+        "parentid" : "qdqy2NjdG",
+        "brightnessEnabled" : 0,
+        "exportOptions" : [
+
+        ],
+        "name" : "Immigration Vote",
+        "saturate" : 100,
+        "height" : 19,
+        "blendingEnabled" : 0,
+        "top" : 397,
+        "constraintsLocked" : false,
+        "right" : null,
+        "visible" : true,
+        "centerAnchorY" : 0.9848484848484849,
+        "contrast" : 100,
+        "grayScaleEnabled" : 0,
+        "hueRotate" : 0,
+        "heightFactor" : null,
+        "targetName" : "Immigration_Vote",
+        "bottom" : null,
+        "blur" : 12,
+        "autoSize" : true,
+        "invertEnabled" : 0,
+        "width" : 231,
+        "brightness" : 100
+      },
+      {
+        "sepiaEnabled" : 0,
+        "editable" : false,
+        "rotation" : 0,
+        "blurType" : "layer",
+        "__class" : "TextNode",
+        "id" : "quLUQK9w9",
+        "saturateEnabled" : 0,
+        "grayscale" : 0,
+        "hueRotateEnabled" : 0,
+        "widthFactor" : null,
+        "opacity" : 1,
+        "contrastEnabled" : 0,
+        "locked" : false,
+        "left" : 292,
+        "styledText" : {
+          "cached" : {
+            "size" : {
+              "width" : 248,
+              "height" : 19
+            },
+            "os" : "10_12",
+            "width" : 0,
+            "html" : "<span data-offset-key=\"1qf0s-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:16px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">China Trade Talks Over Not Over<\/span><\/span>"
+          },
+          "entityMap" : {
+
+          },
+          "blocks" : [
+            {
+              "depth" : 0,
+              "inlineStyleRanges" : [
+                {
+                  "style" : "FONT:__SF-UI-Text-Regular__",
+                  "length" : 31,
+                  "offset" : 0
+                },
+                {
+                  "style" : "COLOR:rgb(0, 0, 0)",
+                  "length" : 31,
+                  "offset" : 0
+                },
+                {
+                  "style" : "LETTERSPACING:0",
+                  "length" : 31,
+                  "offset" : 0
+                },
+                {
+                  "style" : "LINEHEIGHT:1.2",
+                  "length" : 31,
+                  "offset" : 0
+                },
+                {
+                  "style" : "SIZE:16",
+                  "length" : 31,
+                  "offset" : 0
+                }
+              ],
+              "entityRanges" : [
+
+              ],
+              "data" : {
+                "emptyStyle" : [
+                  "FONT:__SF-UI-Text-Regular__",
+                  "COLOR:rgb(0, 0, 0)",
+                  "LETTERSPACING:0",
+                  "LINEHEIGHT:1.2",
+                  "SIZE:16"
+                ]
+              },
+              "text" : "China Trade Talks Over Not Over",
+              "key" : "1qf0s",
+              "type" : "unstyled"
+            }
+          ],
+          "__class" : "StyledTextDraft"
+        },
+        "blendingMode" : "normal",
+        "invert" : 0,
+        "sepia" : 0,
+        "centerAnchorX" : 0.3880597014925373,
+        "blurEnabled" : 0,
+        "shadows" : [
+
+        ],
+        "parentid" : "qdqy2NjdG",
+        "brightnessEnabled" : 0,
+        "exportOptions" : [
+
+        ],
+        "name" : "China Trade Talks",
+        "saturate" : 100,
+        "height" : 19,
+        "blendingEnabled" : 0,
+        "top" : 312,
+        "constraintsLocked" : false,
+        "right" : null,
+        "visible" : true,
+        "centerAnchorY" : 1.075757575757576,
+        "contrast" : 100,
+        "grayScaleEnabled" : 0,
+        "hueRotate" : 0,
+        "heightFactor" : null,
+        "targetName" : "China_Trade_Talks",
+        "bottom" : null,
+        "blur" : 12,
+        "autoSize" : true,
+        "invertEnabled" : 0,
+        "width" : 248,
+        "brightness" : 100
+      },
+      {
+        "sepiaEnabled" : 0,
+        "editable" : false,
+        "rotation" : 0,
+        "blurType" : "layer",
+        "__class" : "TextNode",
+        "id" : "qclOUhoUK",
+        "saturateEnabled" : 0,
+        "grayscale" : 0,
+        "hueRotateEnabled" : 0,
+        "widthFactor" : null,
+        "opacity" : 1,
+        "contrastEnabled" : 0,
+        "locked" : false,
+        "left" : 292,
+        "styledText" : {
+          "cached" : {
+            "size" : {
+              "width" : 351,
+              "height" : 19
+            },
+            "os" : "10_12",
+            "width" : 0,
+            "html" : "<span data-offset-key=\"cubip-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:16px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">NFL Players Need Not Attend National Anthem<\/span><\/span>"
+          },
+          "entityMap" : {
+
+          },
+          "blocks" : [
+            {
+              "depth" : 0,
+              "inlineStyleRanges" : [
+                {
+                  "style" : "FONT:__SF-UI-Text-Regular__",
+                  "length" : 43,
+                  "offset" : 0
+                },
+                {
+                  "style" : "COLOR:rgb(0, 0, 0)",
+                  "length" : 43,
+                  "offset" : 0
+                },
+                {
+                  "style" : "SIZE:16",
+                  "length" : 43,
+                  "offset" : 0
+                },
+                {
+                  "style" : "LETTERSPACING:0",
+                  "length" : 43,
+                  "offset" : 0
+                },
+                {
+                  "style" : "LINEHEIGHT:1.2",
+                  "length" : 43,
+                  "offset" : 0
+                }
+              ],
+              "entityRanges" : [
+
+              ],
+              "data" : {
+                "emptyStyle" : [
+                  "FONT:__SF-UI-Text-Regular__",
+                  "COLOR:rgb(0, 0, 0)",
+                  "SIZE:16",
+                  "LETTERSPACING:0",
+                  "LINEHEIGHT:1.2"
+                ]
+              },
+              "text" : "NFL Players Need Not Attend National Anthem",
+              "key" : "cubip",
+              "type" : "unstyled"
+            }
+          ],
+          "__class" : "StyledTextDraft"
+        },
+        "blendingMode" : "normal",
+        "invert" : 0,
+        "sepia" : 0,
+        "centerAnchorX" : 0.5111940298507462,
+        "blurEnabled" : 0,
+        "shadows" : [
+
+        ],
+        "parentid" : "qdqy2NjdG",
+        "brightnessEnabled" : 0,
+        "exportOptions" : [
+
+        ],
+        "name" : "NFL",
+        "saturate" : 100,
+        "height" : 19,
+        "blendingEnabled" : 0,
+        "top" : 227,
+        "constraintsLocked" : false,
+        "right" : null,
+        "visible" : true,
+        "centerAnchorY" : 1.257575757575758,
+        "contrast" : 100,
+        "grayScaleEnabled" : 0,
+        "hueRotate" : 0,
+        "heightFactor" : null,
+        "targetName" : "NFL",
+        "bottom" : null,
+        "blur" : 12,
+        "autoSize" : true,
+        "invertEnabled" : 0,
+        "width" : 351,
+        "brightness" : 100
+      },
+      {
+        "radius" : 12,
+        "brightness" : 100,
+        "hueRotateEnabled" : 0,
+        "children" : [
+
+        ],
+        "centerAnchorX" : 0,
+        "id" : "Y35pejSEz",
+        "exportOptions" : [
+
+        ],
+        "exportIncludesBackground" : true,
+        "grayScaleEnabled" : 0,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "constraintsLocked" : false,
+        "fillImageResize" : "fill",
+        "blurType" : "layer",
+        "fillColor" : "hsla(198, 100%, 67%, 0.47)",
+        "widthFactor" : null,
+        "blendingEnabled" : 0,
+        "grayscale" : 0,
+        "top" : 253,
+        "saturate" : 100,
+        "left" : 271,
+        "locked" : false,
+        "sepiaEnabled" : 0,
+        "fillGradient" : {
+          "end" : "rgba(0,0,0,0)",
+          "alpha" : 1,
+          "angle" : 0,
+          "__class" : "LinearGradient",
+          "start" : "black"
+        },
+        "blur" : 12,
+        "radiusTopLeft" : 12,
+        "sepia" : 0,
+        "borderColor" : "#222",
+        "rotation" : 0,
+        "borderLeft" : 1,
+        "fillEnabled" : true,
+        "right" : null,
+        "opacity" : 0.6,
+        "name" : "BlueBox",
+        "blendingMode" : "normal",
+        "contrast" : 100,
+        "centerAnchorY" : 0,
+        "height" : 33,
+        "borderWidth" : 1,
+        "radiusIsRelative" : false,
+        "hueRotate" : 0,
+        "borderStyle" : "solid",
+        "brightnessEnabled" : 0,
+        "borderPerSide" : false,
+        "saturateEnabled" : 0,
+        "aspectRatioLocked" : false,
+        "borderRight" : 1,
+        "parentid" : "qdqy2NjdG",
+        "intrinsicWidth" : null,
+        "radiusBottomLeft" : 12,
+        "boxShadows" : [
+
+        ],
+        "contrastEnabled" : 0,
+        "borderEnabled" : 0,
+        "radiusPerCorner" : false,
+        "radiusTopRight" : 12,
+        "invert" : 0,
+        "__class" : "FrameNode",
+        "fillImage" : null,
+        "clip" : true,
+        "fillType" : "color",
+        "visible" : true,
+        "invertEnabled" : 0,
+        "heightFactor" : null,
+        "width" : 402,
+        "intrinsicHeight" : null,
+        "borderBottom" : 1,
+        "deviceType" : null,
+        "bottom" : null,
+        "borderTop" : 1,
+        "targetName" : null,
+        "radiusBottomRight" : 12,
+        "blurEnabled" : 0
+      },
+      {
+        "radius" : 12,
+        "brightness" : 100,
+        "hueRotateEnabled" : 0,
+        "children" : [
+
+        ],
+        "centerAnchorX" : 0.4800995024875622,
+        "id" : "bazCC_T05",
+        "exportOptions" : [
+
+        ],
+        "exportIncludesBackground" : true,
+        "grayScaleEnabled" : 0,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "constraintsLocked" : false,
+        "fillImageResize" : "fill",
+        "blurType" : "layer",
+        "fillColor" : "hsla(198, 100%, 67%, 0.47)",
+        "widthFactor" : null,
+        "blendingEnabled" : 0,
+        "grayscale" : 0,
+        "top" : 338,
+        "saturate" : 100,
+        "left" : 271,
+        "locked" : false,
+        "sepiaEnabled" : 0,
+        "fillGradient" : {
+          "end" : "rgba(0,0,0,0)",
+          "alpha" : 1,
+          "angle" : 0,
+          "__class" : "LinearGradient",
+          "start" : "black"
+        },
+        "blur" : 12,
+        "radiusTopLeft" : 12,
+        "sepia" : 0,
+        "borderColor" : "#222",
+        "rotation" : 0,
+        "borderLeft" : 1,
+        "fillEnabled" : true,
+        "right" : null,
+        "opacity" : 0.6,
+        "name" : "BlueBox",
+        "blendingMode" : "normal",
+        "contrast" : 100,
+        "centerAnchorY" : 1.348484848484848,
+        "height" : 33,
+        "borderWidth" : 1,
+        "radiusIsRelative" : false,
+        "hueRotate" : 0,
+        "borderStyle" : "solid",
+        "brightnessEnabled" : 0,
+        "borderPerSide" : false,
+        "saturateEnabled" : 0,
+        "aspectRatioLocked" : false,
+        "borderRight" : 1,
+        "parentid" : "qdqy2NjdG",
+        "intrinsicWidth" : null,
+        "radiusBottomLeft" : 12,
+        "boxShadows" : [
+
+        ],
+        "contrastEnabled" : 0,
+        "borderEnabled" : 0,
+        "radiusPerCorner" : false,
+        "radiusTopRight" : 12,
+        "invert" : 0,
+        "__class" : "FrameNode",
+        "fillImage" : null,
+        "clip" : true,
+        "fillType" : "color",
+        "visible" : true,
+        "invertEnabled" : 0,
+        "heightFactor" : null,
+        "width" : 402,
+        "intrinsicHeight" : null,
+        "borderBottom" : 1,
+        "deviceType" : null,
+        "bottom" : null,
+        "borderTop" : 1,
+        "targetName" : null,
+        "radiusBottomRight" : 12,
+        "blurEnabled" : 0
+      },
+      {
+        "radius" : 12,
+        "brightness" : 100,
+        "hueRotateEnabled" : 0,
+        "children" : [
+
+        ],
+        "centerAnchorX" : 0.4601990049751244,
+        "id" : "p88SOOa12",
+        "exportOptions" : [
+
+        ],
+        "exportIncludesBackground" : true,
+        "grayScaleEnabled" : 0,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "constraintsLocked" : false,
+        "fillImageResize" : "fill",
+        "blurType" : "layer",
+        "fillColor" : "hsla(198, 100%, 67%, 0.47)",
+        "widthFactor" : null,
+        "blendingEnabled" : 0,
+        "grayscale" : 0,
+        "top" : 423,
+        "saturate" : 100,
+        "left" : 271,
+        "locked" : false,
+        "sepiaEnabled" : 0,
+        "fillGradient" : {
+          "end" : "rgba(0,0,0,0)",
+          "alpha" : 1,
+          "angle" : 0,
+          "__class" : "LinearGradient",
+          "start" : "black"
+        },
+        "blur" : 12,
+        "radiusTopLeft" : 12,
+        "sepia" : 0,
+        "borderColor" : "#222",
+        "rotation" : 0,
+        "borderLeft" : 1,
+        "fillEnabled" : true,
+        "right" : null,
+        "opacity" : 0.6,
+        "name" : "BlueBox",
+        "blendingMode" : "normal",
+        "contrast" : 100,
+        "centerAnchorY" : 1.378787878787879,
+        "height" : 33,
+        "borderWidth" : 1,
+        "radiusIsRelative" : false,
+        "hueRotate" : 0,
+        "borderStyle" : "solid",
+        "brightnessEnabled" : 0,
+        "borderPerSide" : false,
+        "saturateEnabled" : 0,
+        "aspectRatioLocked" : false,
+        "borderRight" : 1,
+        "parentid" : "qdqy2NjdG",
+        "intrinsicWidth" : null,
+        "radiusBottomLeft" : 12,
+        "boxShadows" : [
+
+        ],
+        "contrastEnabled" : 0,
+        "borderEnabled" : 0,
+        "radiusPerCorner" : false,
+        "radiusTopRight" : 12,
+        "invert" : 0,
+        "__class" : "FrameNode",
+        "fillImage" : null,
+        "clip" : true,
+        "fillType" : "color",
+        "visible" : true,
+        "invertEnabled" : 0,
+        "heightFactor" : null,
+        "width" : 402,
+        "intrinsicHeight" : null,
+        "borderBottom" : 1,
+        "deviceType" : null,
+        "bottom" : null,
+        "borderTop" : 1,
+        "targetName" : null,
+        "radiusBottomRight" : 12,
+        "blurEnabled" : 0
+      },
+      {
+        "radius" : 12,
+        "brightness" : 100,
+        "hueRotateEnabled" : 0,
+        "children" : [
+
+        ],
+        "centerAnchorX" : 1.487562189054726,
+        "id" : "DRG92zrMp",
+        "exportOptions" : [
+
+        ],
+        "exportIncludesBackground" : true,
+        "grayScaleEnabled" : 0,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "constraintsLocked" : false,
+        "fillImageResize" : "fill",
+        "blurType" : "layer",
+        "fillColor" : "hsla(0, 91%, 63%, 0.24)",
+        "widthFactor" : null,
+        "blendingEnabled" : 0,
+        "grayscale" : 0,
+        "top" : 168,
+        "saturate" : 100,
+        "left" : 681,
+        "locked" : false,
+        "sepiaEnabled" : 0,
+        "fillGradient" : {
+          "end" : "rgba(0,0,0,0)",
+          "alpha" : 1,
+          "angle" : 0,
+          "__class" : "LinearGradient",
+          "start" : "black"
+        },
+        "blur" : 12,
+        "radiusTopLeft" : 12,
+        "sepia" : 0,
+        "borderColor" : "#222",
+        "rotation" : 0,
+        "borderLeft" : 1,
+        "fillEnabled" : true,
+        "right" : null,
+        "opacity" : 1,
+        "name" : "Red Box",
+        "blendingMode" : "normal",
+        "contrast" : 100,
+        "centerAnchorY" : 0.5,
+        "height" : 33,
+        "borderWidth" : 1,
+        "radiusIsRelative" : false,
+        "hueRotate" : 0,
+        "borderStyle" : "solid",
+        "brightnessEnabled" : 0,
+        "borderPerSide" : false,
+        "saturateEnabled" : 0,
+        "aspectRatioLocked" : false,
+        "borderRight" : 1,
+        "parentid" : "qdqy2NjdG",
+        "intrinsicWidth" : null,
+        "radiusBottomLeft" : 12,
+        "boxShadows" : [
+
+        ],
+        "contrastEnabled" : 0,
+        "borderEnabled" : 0,
+        "radiusPerCorner" : false,
+        "radiusTopRight" : 12,
+        "invert" : 0,
+        "__class" : "FrameNode",
+        "fillImage" : null,
+        "clip" : true,
+        "fillType" : "color",
+        "visible" : true,
+        "invertEnabled" : 0,
+        "heightFactor" : null,
+        "width" : 400,
+        "intrinsicHeight" : null,
+        "borderBottom" : 1,
+        "deviceType" : null,
+        "bottom" : null,
+        "borderTop" : 1,
+        "targetName" : "Red_Box",
+        "radiusBottomRight" : 12,
+        "blurEnabled" : 0
+      },
+      {
+        "radius" : 12,
+        "brightness" : 100,
+        "hueRotateEnabled" : 0,
+        "children" : [
+
+        ],
+        "centerAnchorX" : 1.487562189054726,
+        "id" : "GssP0F35D",
+        "exportOptions" : [
+
+        ],
+        "exportIncludesBackground" : true,
+        "grayScaleEnabled" : 0,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "constraintsLocked" : false,
+        "fillImageResize" : "fill",
+        "blurType" : "layer",
+        "fillColor" : "hsla(0, 91%, 63%, 0.24)",
+        "widthFactor" : null,
+        "blendingEnabled" : 0,
+        "grayscale" : 0,
+        "top" : 253,
+        "saturate" : 100,
+        "left" : 681,
+        "locked" : false,
+        "sepiaEnabled" : 0,
+        "fillGradient" : {
+          "end" : "rgba(0,0,0,0)",
+          "alpha" : 1,
+          "angle" : 0,
+          "__class" : "LinearGradient",
+          "start" : "black"
+        },
+        "blur" : 12,
+        "radiusTopLeft" : 12,
+        "sepia" : 0,
+        "borderColor" : "#222",
+        "rotation" : 0,
+        "borderLeft" : 1,
+        "fillEnabled" : true,
+        "right" : null,
+        "opacity" : 1,
+        "name" : "Red Box",
+        "blendingMode" : "normal",
+        "contrast" : 100,
+        "centerAnchorY" : 0.5,
+        "height" : 33,
+        "borderWidth" : 1,
+        "radiusIsRelative" : false,
+        "hueRotate" : 0,
+        "borderStyle" : "solid",
+        "brightnessEnabled" : 0,
+        "borderPerSide" : false,
+        "saturateEnabled" : 0,
+        "aspectRatioLocked" : false,
+        "borderRight" : 1,
+        "parentid" : "qdqy2NjdG",
+        "intrinsicWidth" : null,
+        "radiusBottomLeft" : 12,
+        "boxShadows" : [
+
+        ],
+        "contrastEnabled" : 0,
+        "borderEnabled" : 0,
+        "radiusPerCorner" : false,
+        "radiusTopRight" : 12,
+        "invert" : 0,
+        "__class" : "FrameNode",
+        "fillImage" : null,
+        "clip" : true,
+        "fillType" : "color",
+        "visible" : true,
+        "invertEnabled" : 0,
+        "heightFactor" : null,
+        "width" : 400,
+        "intrinsicHeight" : null,
+        "borderBottom" : 1,
+        "deviceType" : null,
+        "bottom" : null,
+        "borderTop" : 1,
+        "targetName" : null,
+        "radiusBottomRight" : 12,
+        "blurEnabled" : 0
+      },
+      {
+        "radius" : 12,
+        "brightness" : 100,
+        "hueRotateEnabled" : 0,
+        "children" : [
+
+        ],
+        "centerAnchorX" : 1.487562189054726,
+        "id" : "lO1HpwFg5",
+        "exportOptions" : [
+
+        ],
+        "exportIncludesBackground" : true,
+        "grayScaleEnabled" : 0,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "constraintsLocked" : false,
+        "fillImageResize" : "fill",
+        "blurType" : "layer",
+        "fillColor" : "hsla(0, 91%, 63%, 0.24)",
+        "widthFactor" : null,
+        "blendingEnabled" : 0,
+        "grayscale" : 0,
+        "top" : 338,
+        "saturate" : 100,
+        "left" : 681,
+        "locked" : false,
+        "sepiaEnabled" : 0,
+        "fillGradient" : {
+          "end" : "rgba(0,0,0,0)",
+          "alpha" : 1,
+          "angle" : 0,
+          "__class" : "LinearGradient",
+          "start" : "black"
+        },
+        "blur" : 12,
+        "radiusTopLeft" : 12,
+        "sepia" : 0,
+        "borderColor" : "#222",
+        "rotation" : 0,
+        "borderLeft" : 1,
+        "fillEnabled" : true,
+        "right" : null,
+        "opacity" : 1,
+        "name" : "Red Box",
+        "blendingMode" : "normal",
+        "contrast" : 100,
+        "centerAnchorY" : 0.5,
+        "height" : 33,
+        "borderWidth" : 1,
+        "radiusIsRelative" : false,
+        "hueRotate" : 0,
+        "borderStyle" : "solid",
+        "brightnessEnabled" : 0,
+        "borderPerSide" : false,
+        "saturateEnabled" : 0,
+        "aspectRatioLocked" : false,
+        "borderRight" : 1,
+        "parentid" : "qdqy2NjdG",
+        "intrinsicWidth" : null,
+        "radiusBottomLeft" : 12,
+        "boxShadows" : [
+
+        ],
+        "contrastEnabled" : 0,
+        "borderEnabled" : 0,
+        "radiusPerCorner" : false,
+        "radiusTopRight" : 12,
+        "invert" : 0,
+        "__class" : "FrameNode",
+        "fillImage" : null,
+        "clip" : true,
+        "fillType" : "color",
+        "visible" : true,
+        "invertEnabled" : 0,
+        "heightFactor" : null,
+        "width" : 400,
+        "intrinsicHeight" : null,
+        "borderBottom" : 1,
+        "deviceType" : null,
+        "bottom" : null,
+        "borderTop" : 1,
+        "targetName" : null,
+        "radiusBottomRight" : 12,
+        "blurEnabled" : 0
+      },
+      {
+        "radius" : 12,
+        "brightness" : 100,
+        "hueRotateEnabled" : 0,
+        "children" : [
+
+        ],
+        "centerAnchorX" : 1.487562189054726,
+        "id" : "L7SE6o_ft",
+        "exportOptions" : [
+
+        ],
+        "exportIncludesBackground" : true,
+        "grayScaleEnabled" : 0,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "constraintsLocked" : false,
+        "fillImageResize" : "fill",
+        "blurType" : "layer",
+        "fillColor" : "hsla(0, 91%, 63%, 0.24)",
+        "widthFactor" : null,
+        "blendingEnabled" : 0,
+        "grayscale" : 0,
+        "top" : 423,
+        "saturate" : 100,
+        "left" : 681,
+        "locked" : false,
+        "sepiaEnabled" : 0,
+        "fillGradient" : {
+          "end" : "rgba(0,0,0,0)",
+          "alpha" : 1,
+          "angle" : 0,
+          "__class" : "LinearGradient",
+          "start" : "black"
+        },
+        "blur" : 12,
+        "radiusTopLeft" : 12,
+        "sepia" : 0,
+        "borderColor" : "#222",
+        "rotation" : 0,
+        "borderLeft" : 1,
+        "fillEnabled" : true,
+        "right" : null,
+        "opacity" : 1,
+        "name" : "Red Box",
+        "blendingMode" : "normal",
+        "contrast" : 100,
+        "centerAnchorY" : 0.2878787878787879,
+        "height" : 33,
+        "borderWidth" : 1,
+        "radiusIsRelative" : false,
+        "hueRotate" : 0,
+        "borderStyle" : "solid",
+        "brightnessEnabled" : 0,
+        "borderPerSide" : false,
+        "saturateEnabled" : 0,
+        "aspectRatioLocked" : false,
+        "borderRight" : 1,
+        "parentid" : "qdqy2NjdG",
+        "intrinsicWidth" : null,
+        "radiusBottomLeft" : 12,
+        "boxShadows" : [
+
+        ],
+        "contrastEnabled" : 0,
+        "borderEnabled" : 0,
+        "radiusPerCorner" : false,
+        "radiusTopRight" : 12,
+        "invert" : 0,
+        "__class" : "FrameNode",
+        "fillImage" : null,
+        "clip" : true,
+        "fillType" : "color",
+        "visible" : true,
+        "invertEnabled" : 0,
+        "heightFactor" : null,
+        "width" : 400,
+        "intrinsicHeight" : null,
+        "borderBottom" : 1,
+        "deviceType" : null,
+        "bottom" : null,
+        "borderTop" : 1,
+        "targetName" : null,
+        "radiusBottomRight" : 12,
+        "blurEnabled" : 0
+      }
+    ]
+  }
+}
