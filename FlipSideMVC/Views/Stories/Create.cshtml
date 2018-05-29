@@ -4,10 +4,10 @@
     ViewData["Title"] = "Create";
 
 }
-<script language="javascript">
+@*<script language="javascript">
     var today = new Date().toJSON().slice(0, 10);
     $("#dateRan").value(today);
-</script>
+</script>*@
 
 <h2>Create</h2>
 
@@ -19,92 +19,158 @@
     <input asp-for="topic" class="form-control" />
 </td></tr>
     <tr>
-        <td style="vertical-align:top;padding:10px; border:3px solid blue">
-            <form id="form1" asp-action="Create">
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <div class="form-group">
-                    <label asp-for="dateRan" class="control-label"></label>
-                    <input asp-for="dateRan" class="form-control">
-                    <span asp-validation-for="dateRan" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="slug" class="control-label"></label>
-                    <input asp-for="slug" class="form-control" />
-                    <span asp-validation-for="slug" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="summary" class="control-label"></label>
-                    <input asp-for="summary" class="form-control" />
-                    <span asp-validation-for="summary" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="byline" class="control-label"></label>
-                    <input asp-for="byline" class="form-control" />
-                    <span asp-validation-for="byline" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="lean" class="control-label"></label>
-                    <input asp-for="lean" class="form-control" value="1" />
-                    <span asp-validation-for="lean" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="link" class="control-label"></label>
-                    <input asp-for="link" class="form-control" />
-                    <span asp-validation-for="link" class="text-danger"></span>
-                </div>
-            </form>
+        <td style="vertical-align: top; padding: 10px; border: 3px solid blue">
+            <table id="frm1">
+                <tr>
+                    <td>
+                        @*<form id="form1" asp-action="Create">*@
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="dateRan" class="control-label"></label>
+                            <input asp-for="dateRan" class="form-control">
+                            <span asp-validation-for="dateRan" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="slug" class="control-label"></label>
+                            <input asp-for="slug" class="form-control" />
+                            <span asp-validation-for="slug" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="summary" class="control-label"></label>
+                            <input asp-for="summary" class="form-control" />
+                            <span asp-validation-for="summary" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="byline" class="control-label"></label>
+                            <input asp-for="byline" class="form-control" />
+                            <span asp-validation-for="byline" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="lean" class="control-label"></label>
+                            <input asp-for="lean" class="form-control" value="1" />
+                            <span asp-validation-for="lean" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="link" class="control-label"></label>
+                            <input asp-for="link" class="form-control" />
+                            <span asp-validation-for="link" class="text-danger"></span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            @*</form>*@
         </td>
-        <td style="vertical-align:top;padding:10px; border:3px solid red">
-
-            <form id="form2" asp-action="Create">
+        <td id="frm2" style="vertical-align:top;padding:10px; border:3px solid red">
+            @*<form id="form2" asp-action="Create">*@
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-group">
                     <label asp-for="dateRan" class="control-label"></label>
-                    <input asp-for="dateRan" class="form-control" value=today; />
+                    <input asp-for="dateRan" class="form-control" id="dateRan" />
                     <span asp-validation-for="dateRan" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label asp-for="slug" class="control-label"></label>
-                    <input asp-for="slug" class="form-control" />
+                    <input asp-for="slug" class="form-control" id="slug" />
                     <span asp-validation-for="slug" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label asp-for="summary" class="control-label"></label>
-                    <input asp-for="summary" class="form-control" />
+                    <input asp-for="summary" class="form-control" id="summary" />
                     <span asp-validation-for="summary" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label asp-for="byline" class="control-label"></label>
-                    <input asp-for="byline" class="form-control" />
+                    <input asp-for="byline" class="form-control" id="byline" />
                     <span asp-validation-for="byline" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label asp-for="lean" class="control-label"></label>
-                    <input asp-for="lean" class="form-control" value="2" />
+                    <input asp-for="lean" class="form-control" id="lean" value="2" />
                     <span asp-validation-for="lean" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label asp-for="link" class="control-label"></label>
-                    <input asp-for="link" class="form-control" />
+                    <input asp-for="link" class="form-control" id="link" />
                     <span asp-validation-for="link" class="text-danger"></span>
                 </div>
-            </form>
+            @*</form>*@
         </td>
     </tr>
 </table>
 <div class="form-group">
-    <input type="image" alt="Create" onclick="submitForms()" class="btn btn-default" />
+    <input type="image" alt="Create" onclick="formsubmitter()" class="btn btn-default" />
 </div>
 <script language="javascript">
     var today = new Date().toJSON().slice(0, 10);
     document.getElementsByName("dateRan")[0].value = today;
     document.getElementsByName("dateRan")[1].value = today;
 
-    submitForms = function () {
-        document.getElementById("form1").submit();
-        document.getElementById("form2").submit();
+    formsubmitter = function () {
+        var vals = new Array(8);
+        var vals1 = new Array(8);
+
+        var tds = $("input[name='dateRan']");
+        vals[0] = tds[0].value;
+        vals1[0] = tds[1].value;
+
+        tds = $("input[name='slug']");
+        vals[1] = tds[0].value;
+        vals1[1] = tds[1].value;
+
+         tds = $("input[name='summary']");
+        vals[2] = tds[0].value;
+        vals1[2] = tds[1].value;
+
+         tds = $("input[name='link']");
+        vals[3] = tds[0].value;
+        vals1[3] = tds[1].value;
+
+         tds = $("input[name='byline']");
+        vals[4] = tds[0].value;
+        vals1[4] = tds[1].value;
+
+         tds = $("input[name='lean']");
+        vals[5] = tds[0].value;
+        vals1[5] = tds[1].value;
+        // tds = $("input[name='slug']");
+        //vals1[0] = tds[0].value;
+        //vals1[1] = tds[1].value;
+
+         tds = $("input[name='topic']");
+        vals[6] = tds[0].value;
+        vals1[6] = tds[0].value;
+
+        $.ajax(
+            {
+                url: "/stories/create",
+                type: "POST",
+                data: {'vals': vals},
+                success: function (result) {
+                }
+            });
+
+        $.ajax(
+            {
+                url: "/stories/create",
+                type: "POST",
+                //contentType: "application/json",
+                data: { 'vals': vals1 },
+                success: function(result) {
+                    window.location = '/stories/create';
+                }
+            });
+
+
     }
 
+    function wait(ms){
+        var start = new Date().getTime();
+        var end = start;
+        while(end < start + ms) {
+            end = new Date().getTime();
+        }
+    }
+    
 </script>
 
 

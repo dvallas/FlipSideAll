@@ -87,10 +87,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\FlipSide.mdf" />
-    <Content Include="App_Data\FlipSide_log.ldf">
-      <DependentUpon>FlipSide.mdf</DependentUpon>
-    </Content>
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -101,6 +97,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
