@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using FlipSideModels;
-using FlipsideMVC;
 using FlipSideDataAccess;
+using FlipSideMVC.Data;
 
 namespace FlipSide.Controllers
 {
     public class StoriesController : Controller
     {
-        private readonly FlipSideDataContext _context;
+        public readonly FlipSideDataContext _context;
 
         public StoriesController(FlipSideDataContext context)
         {

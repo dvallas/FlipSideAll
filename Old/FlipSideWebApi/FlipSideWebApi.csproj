@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FlipSideDataAccess\FlipSideDataAccess.csproj" />
+    <ProjectReference Include="..\FlipSideModels\FlipSideModels.csproj" />
   </ItemGroup>
 
 </Project>

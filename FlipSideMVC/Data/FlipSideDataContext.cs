@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using FlipSideModels;
 using Microsoft.EntityFrameworkCore;
-using FlipSideModels;
 
-namespace FlipsideMVC
+namespace FlipSideMVC.Data
 {
     public class FlipSideDataContext : DbContext
     {
-        public FlipSideDataContext (DbContextOptions<FlipSideDataContext> options)
+        public FlipSideDataContext(DbContextOptions<FlipSideDataContext> options)
             : base(options)
         {
         }

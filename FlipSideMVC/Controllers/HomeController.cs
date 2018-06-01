@@ -5,12 +5,17 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using FlipSideModels;
-using FlipsideMVC;
+using Microsoft.Extensions.Configuration;
 
 namespace FlipSide.Controllers
 {
     public class HomeController : Controller
     {
+        public static IConfiguration _iconfiguration;
+        public HomeController(IConfiguration iconfiguration)
+        {
+            _iconfiguration = iconfiguration;
+        }
         public IActionResult Index()
         {
             return View();

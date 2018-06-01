@@ -2,13 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <StartupObject>FlipSide.Program</StartupObject>
+    <RootNamespace>FlipSide</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ConfigFactory.cs" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="BuildWebCompiler" Version="1.11.375" />
     <PackageReference Include="dapper" Version="1.50.5" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
     <PackageReference Include="microsoft.EntityFrameworkCore.Tools" Version="2.0.3" />
+    <PackageReference Include="microsoft.extensions.configuration" Version="2.1.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.4" />
     <PackageReference Include="MySql.Data" Version="8.0.11" />
   </ItemGroup>
@@ -18,15 +25,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FlipSideModels\FlipSideModels.csproj" />
-    <ProjectReference Include="..\FlipSideWebApi\FlipSideWebApi.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="Models">
-      <HintPath>..\Models\obj\Debug\netstandard2.0\Models.dll</HintPath>
-      <Private>true</Private>
-    </Reference>
+    <Content Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
